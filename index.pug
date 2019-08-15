@@ -1,9 +1,10 @@
 //-mixin方法或混入
 //-產生標題(英文標題,中文標題)
 mixin title(eng,chi)
-    h2(class="title")=eng
-    h1=chi
-    img(src="imgs/line.png", alt="線條")
+    div(class="title-box")
+        h2(class="title")=eng
+        h1=chi
+        img(src="imgs/line.png", alt="線條")
 <!DOCTYPE html>
 html(lang="zh")
     head
@@ -23,5 +24,13 @@ html(lang="zh")
             p 不加多餘的糖份、油脂，不給不必要的色素裝飾，只有單純原味，與健康分享，不靠防腐香精來增加香氣與保存期限，使甜膩少一點、但保存短一點，讓你吃的無負擔，追求健康多一點。
             img(src="imgs/brands.png", alt="狸小路 產品")
         +title("CAKES","產品介紹")
+        section(id="product")
+            div(class="product-box")
+                a(href="#")
+                    img(src="imgs/cake01.png", alt="產品 照片")
+                    hr
+                    h2 香蕉巧克力蛋糕$280
+                    p 苦甜巧克力的蛋糕體配上新鮮的香蕉切片，再搭上一些鮮奶油，意想不到的搭配組合出意想不到的口感
         +title("NEWS","最新消息")
         +title("CONTACT","聯絡我們")
+        

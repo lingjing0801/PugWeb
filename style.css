@@ -12,7 +12,7 @@ body{
     background-repeat: no-repeat;
     width:100vw;
     /* calc 計算 -CSS 計算數字 +-*/ */
-    height: calc(100vw / 2.1);
+    height: calc(100vw / 2.2);
 }
 #logo{
     width: 300px;
@@ -45,15 +45,6 @@ nav{
     text-align: center;
     color:#58451a;    
 }
-/* 伪元素 */
-.title::before{
-    content:"#";
-    padding-right: 20px;
-}
-.title::after{
-    content:"#";
-    padding-left: 20px;
-}
 #brands p {
     width: 500px;
     margin: 0 auto;
@@ -64,3 +55,22 @@ nav{
     /* 字距 */
     letter-spacing: 6px;
 }
+/* 標題區塊 */
+.title-box{
+    text-align: center;
+    color:#58451a;   
+}
+.title{
+    font-size: 1.5em;
+    padding:10px 0;
+}
+/* 伪元素 */
+.title::before{
+    content:"+";
+    padding-right: 20px;
+}
+.title::after{
+    content:"+";
+    padding-left: 20px;
+}
+
