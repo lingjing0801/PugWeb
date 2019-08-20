@@ -7,6 +7,7 @@
 
 body {
     background-color: #faf7f0;
+    text-align: center;
 }
 
 #banner {
@@ -105,6 +106,7 @@ nav {
     padding:30px;
     width:920px;
     margin:0 auto;
+    text-align: left;
 }
 
 #product img {
@@ -145,4 +147,11 @@ nav {
 .btn-big:hover{
     background-color:transparent;
     color:#642200;
+}
+.small-line{
+    background-image: url(imgs/small-line.png);
+    height:5px;
+    background-repeat: repeat-x;
+    margin:20px 0 20px 0;
+
 }
