@@ -73,4 +73,15 @@ nav{
     content:"+";
     padding-left: 20px;
 }
-
+/* 產品區塊 */
+#product{
+    /* 顯示模式:格線 */
+    display:grid;
+    /* 格線-框架-欄位尺寸 */
+    grid-template-columns: auto auto auto;
+    /* 格線間距 */
+    grid-gap:20px;
+}
+#product img{
+    width: 100%;
+}
