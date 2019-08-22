@@ -17,6 +17,7 @@ mixin product-box(img,tit2,text)
 html(lang="zh")
     head
         meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no")
         title 狸小路 | 首頁
         link(rel="stylesheet", href="style.css")
         link(rel="shortcut icon", href="imgs/icon.png", type="image/x-icon")
@@ -48,7 +49,24 @@ html(lang="zh")
         a(href="#" class="btn-big") 觀看更多消息
         +title("CONTACT","聯絡我們")
         section(id="contact")
-            div(id="contact-box")
-            
+            div(class="contact-box")
+                img(src="imgs/phone.png", alt="預訂客服")
+                h3 預訂客服
+                h4 Tel：06-2430890
+                p ( 現貨也可以預訂 客服到六點唷 )
+            div(class="contact-box")
+                img(src="imgs/location.png", alt="裕學店")
+                h3 裕學店
+                h4 Tel：06-2909702 ( 當日現貨預訂 )
+                h4 Adds：台南市東區裕學路12號
+                h4 營業時間：早上10點-晚上9點
+            div(class="contact-box")
+                img(src="imgs/location.png", alt="民族店")
+                h3 民族店
+                h4 Tel：06-2225374 ( 當日現貨預訂 )
+                h4 Adds：台南市中西區民族路二段72-1號
+                h4 營業時間：早上10點-晚上9點
+
+
         include footer.pug
         

@@ -165,6 +165,17 @@ nav {
     
 
 }
+#contact{
+    /* 顯示模式：格線 */
+    display: grid;
+    /* 格線-框架-欄位：欄位尺寸 欄位尺寸 欄位尺寸 */
+    grid-template-columns: auto auto auto;
+    /* 格線-間隙 */
+    grid-gap: 10px;
+    padding:30px;
+    margin:0 auto;
+    text-align: center;
+}
 footer{
     background-color:#642200;
     color:#fff;
@@ -174,4 +185,22 @@ footer #copy{
     padding-top:50px;
     font-size:0.5em;
     text-align: center;
+}
+/* RWD */
+/*當螢幕大於等於 1024 像素 桌機 */
+@media screen and (min-width:1024px){
+}
+/*當螢幕小於等於 1023 像素 平板 */
+@media screen and (max-width:1023px){
+  
+  #product{
+    grid-template-columns: 1fr 1fr ;
+  }
+}
+/*當螢幕小於等於 767 像素 手機 */
+@media screen and (max-width:767px){
+  
+  #product{
+    grid-template-columns: 1fr ;
+  }
 }
