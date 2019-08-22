@@ -171,10 +171,14 @@ nav {
     /* 格線-框架-欄位：欄位尺寸 欄位尺寸 欄位尺寸 */
     grid-template-columns: auto auto auto;
     /* 格線-間隙 */
-    grid-gap: 10px;
+    grid-gap: 30px;
     padding:30px;
     margin:0 auto;
     text-align: center;
+    width:900px;
+}
+.contact-box h3{
+    color: #ffe048;
 }
 footer{
     background-color:#642200;
@@ -200,7 +204,10 @@ footer #copy{
 }
 /*當螢幕小於等於 767 像素 手機 */
 @media screen and (max-width:767px){
-  
+  #contact{
+      grid-template-columns: 1fr ;
+      width: 100%;
+  }
   #product{
       grid-template-columns: 1fr ;
       width: 100%;
@@ -215,4 +222,19 @@ footer #copy{
   #brands>img{
       width: 100%;
   }
+  #banner{
+      background-position: center 0;
+  }
+  nav{
+      text-align: center;
+      padding: 10px 0;
+  }
+  .logo{
+      width: 200px;
+  }
+  .link{
+      float: none;
+      padding:10px 0;
+  }
+
 }
