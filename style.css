@@ -194,13 +194,25 @@ footer #copy{
 @media screen and (max-width:1023px){
   
   #product{
-    grid-template-columns: 1fr 1fr ;
+      grid-template-columns: 1fr 1fr ;
+      width: 100%;
   }
 }
 /*當螢幕小於等於 767 像素 手機 */
 @media screen and (max-width:767px){
   
   #product{
-    grid-template-columns: 1fr ;
+      grid-template-columns: 1fr ;
+      width: 100%;
+  }
+  #brands{
+      width: 100%;
+  }
+  #brands p{
+      width: 100%;
+  }
+  /* > 裡面第一層元素 */
+  #brands>img{
+      width: 100%;
   }
 }
