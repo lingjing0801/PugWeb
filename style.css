@@ -190,6 +190,7 @@ nav {
     padding:20px 0 50px 0;
 
 }
+/* 聯絡我們 */
 #contact{
     /* 顯示模式：格線 */
     display: grid;
@@ -197,14 +198,26 @@ nav {
     grid-template-columns: auto auto auto;
     /* 格線-間隙 */
     grid-gap: 30px;
-    padding:30px;
+    padding-top:30px;
     margin:0 auto;
     text-align: center;
-    width:900px;
+    width:950px;
+}
+.contact-box{
+    border:0.2px solid #c7c7c7;
+    padding:20px;
+}
+.contact-box img{
+    width: 50px;
 }
 .contact-box h3{
     color: #fbab13;
+    padding: 10px;
 }
+#fb{
+    margin:60px auto;
+}
+/* footer */
 footer{
     background-color:#642200;
     color:#fff;
