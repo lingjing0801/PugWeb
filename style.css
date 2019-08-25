@@ -156,13 +156,38 @@ nav {
     margin:20px 0 20px 0;
 
 }
+/* 最新消息 */
 #news{
     text-align: left;
     display:inline-block;
+    width: 45%;
+    padding:20px 0 20px 150px;
 }
-#news img{
+#news h2{
+    color:#fbab13;
+    padding:10px;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+#news p{
+    color:rgb(80, 143, 202);
+    letter-spacing: 2px;
+    line-height: 24px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+#news h4{
+    color:rgb(80, 143, 202);
+    padding:30px 0 40px 10px;
+}
+#news hr{
+    border:0.5px dashed #4d4d4d;
+}
+#news-box{
     display:inline-block;
-    
+    width: 50%;
+    vertical-align: top;
+    padding:20px 0 50px 0;
 
 }
 #contact{
@@ -178,7 +203,7 @@ nav {
     width:900px;
 }
 .contact-box h3{
-    color: #ffe048;
+    color: #fbab13;
 }
 footer{
     background-color:#642200;
